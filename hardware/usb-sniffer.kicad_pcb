@@ -242,7 +242,7 @@
     (property "Sheetname" "Target USB")
     (path "/80a8637f-ca8b-40a1-a464-e4c9a6111846/1f0740c4-e178-4431-af10-def0d9d2f24a")
     (attr smd)
-    (fp_text reference "IC6" (at -3.048 0 180) (layer "F.SilkS")
+    (fp_text reference "IC6" (at -3.048 0) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.127)))
       (tstamp 563523b7-bc8a-40c5-84f3-21094d3ad9bd)
     )
@@ -270,6 +270,11 @@
       (net 101 "Net-(IC6-OUT)") (pinfunction "OUT") (pintype "output") (tstamp 858eb22e-dc00-47f6-98a6-6eaffd112efd))
     (pad "4" smd roundrect (at -1.05 -0.9 270) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp f4def707-2124-4fa7-8bea-3cf50d16d8f2))
+    (model "${KICAD7_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_ic:SOT-23-8" (layer "F.Cu")
@@ -316,6 +321,11 @@
       (net 13 "/CMP_DP_3") (pintype "output") (tstamp 4d5cabfd-8386-41b5-8f89-de6f70f243f4))
     (pad "8" smd roundrect (at 1.1375 -0.975) (size 1.325 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp b9927c00-fc6e-4307-b65c-34f5f70d9850))
+    (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_misc:TestPoint-1.27mm-Small" (layer "F.Cu")
@@ -470,6 +480,11 @@
       (net 9 "/CMP_DP_1") (pintype "output") (tstamp 5cd81e94-a26f-4c83-b298-7e8017c01c77))
     (pad "8" smd roundrect (at 1.1375 -0.975) (size 1.325 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp a737ef45-9257-471b-b76f-b85610d9795f))
+    (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_misc:TestPoint-1.27mm" (layer "F.Cu")
@@ -688,6 +703,11 @@
       (net 14 "/T_USB_VBUS") (pinfunction "VBUS") (pintype "passive") (tstamp 17909e77-fcfe-4e4d-bdcd-f0be58fe71a0))
     (pad "VBUS2" smd rect (at 2.45 -5.131 90) (size 0.6 1.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 14 "/T_USB_VBUS") (pinfunction "VBUS") (pintype "passive") (tstamp c12ee297-1f12-4109-9e3f-1252595764e3))
+    (model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+      (offset (xyz 0 1 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_ic:QFN-24-0.5mm" (layer "F.Cu")
@@ -789,6 +809,11 @@
       (net 63 "/T_USB_STP") (pinfunction "STP") (pintype "input") (tstamp 41531229-7885-4cc0-a1cd-3ab1f17f61b6))
     (pad "25" smd rect (at 0 0) (size 2 2) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "PAD") (pintype "passive") (tstamp ba506fe2-6135-4a6d-b29a-60415580b0b7))
+    (model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24_4x4mm_P0.5mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_misc:TestPoint-1.27mm-Small" (layer "F.Cu")
@@ -1055,6 +1080,11 @@
       (net 50 "/FD11") (pinfunction "PD3/FD11") (pintype "bidirectional") (tstamp 884d3d74-64f4-45d8-a718-375749eb311c))
     (pad "56" smd rect (at 4.8 -8.5725) (size 1.2 0.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 51 "/FD12") (pinfunction "PD4/FD12") (pintype "bidirectional") (tstamp 88ac2040-aef8-4957-af1e-9516287a2f60))
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-56_7.5x18.5mm_P0.635mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_smd:0603" (layer "F.Cu")
@@ -1147,6 +1177,11 @@
       (net 1 "GND") (pinfunction "WP") (pintype "input") (tstamp 14cfaf3b-6a1c-4239-b77c-39b0b68a37f8))
     (pad "8" smd roundrect (at 2.6 -1.905 90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 80bd1f33-9cd7-4b37-8101-29f3f2b5296d))
+    (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_smd:0603" (layer "F.Cu")
@@ -1332,6 +1367,11 @@
       (net 105 "Net-(IC10-OUT)") (pinfunction "OUT") (pintype "output") (tstamp 12abbf90-941f-4eda-be64-c6118fba076e))
     (pad "4" smd roundrect (at -1.05 -0.9) (size 1 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 46829d52-d42f-4694-a216-cf7563b4d69e))
+    (model "${KICAD7_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_ic:SOT-23-8" (layer "F.Cu")
@@ -1378,6 +1418,11 @@
       (net 11 "/CMP_DP_2") (pintype "output") (tstamp 5a3cc129-4e06-4ba1-8fc7-4db555de6e14))
     (pad "8" smd roundrect (at 1.1375 -0.975) (size 1.325 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 5fd91817-80e1-4872-8945-9ae7fbef036e))
+    (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-8.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_smd:0603" (layer "F.Cu")
@@ -1460,11 +1505,11 @@
     (property "Sheetname" "")
     (path "/a29f1a62-28d6-483c-8bf1-73979d7bd982")
     (attr smd)
-    (fp_text reference "J1" (at 0 -6.731 -90) (layer "F.SilkS")
+    (fp_text reference "J1" (at 0 -6.731 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.127)))
       (tstamp fbb8f1d6-d614-4d3e-92c1-2e0f1bbd51e9)
     )
-    (fp_text value "USB-C" (at 0 0 -90) (layer "F.Fab")
+    (fp_text value "USB-C" (at 0 0 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.127)))
       (tstamp 3e13fd38-38ae-4c0a-ad77-d106fc68af43)
     )
@@ -1512,6 +1557,11 @@
       (net 5 "VBUS") (pinfunction "VBUS") (pintype "passive") (tstamp e69edbae-46c7-466c-808d-3800d8e0fb37))
     (pad "VBUS2" smd rect (at 2.45 -5.131 270) (size 0.6 1.45) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "VBUS") (pinfunction "VBUS") (pintype "passive") (tstamp c15c6a00-c893-4a8a-900a-0cf58a8c057d))
+    (model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+      (offset (xyz 0 1 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_misc:TestPoint-1.27mm-Small" (layer "F.Cu")
@@ -1811,6 +1861,11 @@
       (net 95 "unconnected-(IC1-IO_99-Pad99)") (pinfunction "IO_99") (pintype "bidirectional") (tstamp e7a13310-6d31-4812-8b9d-9c116ee12cb2))
     (pad "100" smd roundrect (at -6 -7.6625 180) (size 0.27 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 475ae05e-1aa3-49d5-aec0-3ace95a8782b))
+    (model "${KICAD7_3DMODEL_DIR}/Package_QFP.3dshapes/TQFP-100_14x14mm_P0.5mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_smd:0603" (layer "F.Cu")
@@ -1897,6 +1952,11 @@
       (net 1 "GND") (pinfunction "MH2") (pintype "passive") (tstamp 14c361f9-4f3a-468b-b731-9139743e2663))
     (pad "VBUS" smd rect (at -3.5 -6.715 180) (size 3 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 14 "/T_USB_VBUS") (pinfunction "VBUS") (pintype "passive") (tstamp 2910c045-73dd-4fb8-8be7-ca2156738d06))
+    (model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_TE_292303-7_Horizontal.step"
+      (offset (xyz 0 0 -0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "ataradov_smd:0603" (layer "F.Cu")
