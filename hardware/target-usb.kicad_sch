@@ -2412,7 +2412,7 @@
     (property "Value" "Yellow" (at 82.55 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ataradov_smd:0603" (at 82.55 155.3464 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 82.55 155.3464 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 77.851 155.321 0)
